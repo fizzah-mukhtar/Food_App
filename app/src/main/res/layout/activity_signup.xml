@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_200"
+    tools:context=".Signup">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="271dp"
+        android:layout_height="83dp"
+        android:text="SIGNUP"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="289dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="username"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="60dp"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="278dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="email"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="269dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="275dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="password"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="275dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:hint="confirm password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="signup"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="150dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="542dp" />
+
+</LinearLayout>
